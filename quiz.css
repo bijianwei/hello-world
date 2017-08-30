@@ -1,0 +1,40 @@
+body{
+	margin:0px;
+	padding:0px 200px;
+	width:auto;
+	background-color:#F0F0F0;
+}
+#background-body{
+	background-color:white;
+	padding:100px;
+}
+.radio{
+	display:block;
+	border:1px solid gray;
+	margin-bottom:5px;
+	padding:10px;
+}
+.radio:hover{
+	color:#00caca;
+	background-color:#F0F0F0;
+	border:1px solid black;
+	padding:10px;
+}
+.checkbox{
+	margin-bottom:5px;
+}
+.checkbox:hover{
+	color:#02df82;
+	background-color:#F0F0F0;
+	border:1px solid black;
+}
+
+.submit{
+	width:20%;
+	height:50px;	
+}
+.submit:hover{
+	color:white;
+	background-color:#ffa042;
+	border:1px solid black;
+}
