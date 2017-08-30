@@ -1,0 +1,137 @@
+ul,li{
+	margin:0;
+	padding:0;
+}
+body {
+	width:1280px;
+	margin:0 auto;
+
+}
+#book{
+	margin:12px 0;
+	float:left;
+}
+#header{
+	min-height:40px;
+}
+#header div{
+	font-size:25px;
+	margin:20px 12px 0 0;
+	float:left;
+	
+}
+#header li{
+	padding:15px 15px 0 15px;
+	color:#818085;
+	float:left;
+	list-style-type:none;
+	
+}
+#header img{
+	margin-bottom:0;
+}
+#header li a{
+	text-decoration:none;
+}
+#header li:hover{
+	color:#e94c47;
+	border-bottom:2px solid #e94c47;
+}
+#header ul{
+	float:right;
+	width:600px;
+	margin:10px 12px 0 0;
+}
+#clearb{
+	clear:both;
+}
+
+#shiftlist{
+	width:9999px;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+.list_li{	
+	float:left;
+}
+
+#inner{	
+	width:9999px;	
+	overflow:hidden;
+	position:relative;	
+}
+#outer{
+	width:950px;
+	overflow:hidden;
+	position:relative;
+	left:0;
+	top:0;
+}
+#warp{
+	width:952px;
+	margin:20px auto;
+}
+
+
+#inner{
+     margin-left:-950px;
+ }
+#outer a{
+     position: absolute;
+     width:60px;  
+	 height:60px;
+     font-size: 60px;
+     text-align: center;
+     line-height: 60px;
+     top:50%;
+     margin-top: -30px;
+     background-color: #ccc;
+     opacity: 0;
+     filter: alpha(opacity=0);
+ }
+#outer .active{
+     background-color: #9f9f9f;
+ }
+#outer:hover a{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+ }
+ a{
+	text-decoration:none;
+	color:black;
+ }
+#leftGo{
+	
+    left:0;
+ }
+#rightGo{
+ 	
+    right:0;
+ }
+#pagination{
+     position: absolute;
+     bottom: 50px;
+     width:100%;
+     text-align: center;
+ }
+#pagination span{
+	 display: inline-block;
+     width:50px;
+     height:50px;
+     line-height: 50px;
+     border-radius: 50%;
+     background-color: #fbfbfb;
+     opacity: 0.6;
+     filter: alpha(opacity=60);
+     cursor: pointer;
+     -webkit-user-select: none;
+}
+
+
+
+
+
+
+
+
